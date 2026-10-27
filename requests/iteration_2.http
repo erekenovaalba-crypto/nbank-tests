@@ -6,7 +6,7 @@ Content-Type: application/json
   "username": "admin",
   "password": "admin"
 }
-    
+
 ###Создание нового пользователя Админом
 POST /api/v1/admin/users HTTP/1.1
 Host: localhost:4111
