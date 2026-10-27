@@ -207,7 +207,7 @@ Content-Length: 26
 
 {
   "name": "ajak sksk1"
-} 
+}
 ###Негативный кейс:Изменение имени пользователя (два слова разделенные  несколькими пробелами)
 PUT /api/v1/customer/profile HTTP/1.1
 Host: localhost:4111
