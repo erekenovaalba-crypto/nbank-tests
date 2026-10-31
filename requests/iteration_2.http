@@ -113,6 +113,8 @@ Content-Length: 71
   "receiverAccountId": 2,
   "amount": 10000
 }
+### Перевод отрицаительной суммы -1
+### Перевод 0
 ### Негативный кейс: Перевод суммы больше допустимой суммы
 POST /api/v1/accounts/transfer HTTP/1.1
 Host: localhost:4111
@@ -219,7 +221,7 @@ Content-Length: 29
 {
   "name": "ajak     sksk"
 }
-### Позитивный кейс: Изменение имени пользователя (два слова разделенные  несколькими пробелами)
+### Позитивный кейс: Изменение имени пользователя (два слова разделенные пробелом)
 PUT /api/v1/customer/profile HTTP/1.1
 Host: localhost:4111
 Cookie: JSESSIONID=2D4B2183DD621A55C91E2A4EABCDBB88
